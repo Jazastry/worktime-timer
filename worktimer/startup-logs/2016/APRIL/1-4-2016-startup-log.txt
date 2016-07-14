@@ -65,3 +65,9 @@
 1-4-2016 - PAUSE at - 19:56 - Work Time  - 02:46:27
 1-4-2016 - START at - 19:56 - Work Time  - 02:41:27
 1-4-2016 - STOP at - 19:56 - Work Time  - 02:41:29
+1-4-2016 - START at - 20:32 - Work Time  - 03:17:50
+1-4-2016 - STOP at - 20:32 - Work Time  - 03:17:54
+1-4-2016 - START at - 20:34 - Work Time  - 03:19:15
+1-4-2016 - STOP at - 20:34 - Work Time  - 03:19:18
+1-4-2016 - START at - 20:34 - Work Time  - 03:19:20
+1-4-2016 - STOP at - 20:34 - Work Time  - 03:19:22

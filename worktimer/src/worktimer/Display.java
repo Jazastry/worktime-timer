@@ -172,6 +172,7 @@ public class Display extends JFrame implements Runnable {
         setBackground(new java.awt.Color(0, 0, 0));
         setForeground(java.awt.Color.black);
         setUndecorated(true);
+        setPreferredSize(new java.awt.Dimension(503, 76));
         setResizable(false);
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -197,6 +198,11 @@ public class Display extends JFrame implements Runnable {
         startStopBtn.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 startStopBtnMouseClicked(evt);
+            }
+        });
+        startStopBtn.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                startStopBtnActionPerformed(evt);
             }
         });
         getContentPane().add(startStopBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 0, 93, 78));
@@ -405,6 +411,10 @@ public class Display extends JFrame implements Runnable {
     private void timeDisplayActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_timeDisplayActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_timeDisplayActionPerformed
+
+    private void startStopBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startStopBtnActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_startStopBtnActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel jPanel1;
